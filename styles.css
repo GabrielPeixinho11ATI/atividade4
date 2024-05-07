@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    }
+    
+    body {
+    background-image: url(https://www.denvercarclub.com/wp-content/uploads/2019/08/exotic-car-rental-denver-3.jpg);
+    width: 300;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    }
+    
+    
+    body > div{
+        background-color: transparent;
+        max-width: 736px;
+        margin-inline: auto;
+        margin-block: 64px;
+        padding: 40px;
+        border-radius: 24px;
+    }
+    
+    div img{
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: 40px;
+    }
+    
+    
+    h1, h2 {
+        font-family: 'lora', serif;
+    }
+    
+    h1 {
+      font-size: 40px;
+      color: rgb(255, 10, 10);
+      line-height: 100%;
+      margin-bottom: 24px;
+    }
+
+    p{
+        color: #000000;
+        line-height: 150%;
+        margin-bottom: 32px;
+    }
+  
+    
+    .h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 100%;
+        font-family: 'outfit', sans-serif;
+        color: rgb(255, 10, 10);
+        margin-bottom: 16px;
+    }
+    
+        li {
+            padding-left: 10px;
+            color: rgb(255, 10, 10);
+            line-height: 150%;
+        }
+    
+        li + li {
+            margin-top: 8px;
+            color: rgb(255, 10, 10);
+        }
+    
+        ol, ul {
+            margin-left: 20px;
+        }
+       
+        h2 {
+            font-size: 28px;
+            color:rgb(255, 10, 10);
+            line-height: 100%;
+            margin-bottom: 24px;
+        }
+    
+        hr{
+            border: 1px solid #e3ddd7;
+            margin-block: 32px;
+        }
+      
+        .p {
+            margin-bottom: 24px;
+        }
+
+    
